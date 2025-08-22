@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Quantico:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: "Quantico", sans-serif;
+}
+.container{
+    margin: 0 auto;
+    border: 2px solid red;
+    width: 1273px;
+}
+.textdv{
+    margin-left: 25px;
+}
+.textdv ul li:hover{
+    color: #FF9C28;
+    transition: all 0.5s;
+}
+.header{
+    width: 1273px;
+    height: 70px;
+    background: #272C3D;
+    color: white;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 23px;
+}
+.nav ul{
+    display: flex;
+    gap: 25px;
+}
+.slct{
+    width: 190px;
+    height: 26px;
+    background: #404864;
+    border-radius: 5px;
+}
+.slct img{
+    display: flex;
+    margin-left: 160px;
+}
+.select{
+    display: flex;
+    gap: 22px;
+}
+.slct2{
+    background-color: rgb(40, 37, 37);
+    width: 165px;
+    height: 26px;
+    border-radius: 5px;
+    color: white;
+}
+.slct2 option{
+    color: white;
+}
+.slctdiv{
+    margin-right: 25px;
+}
+.kartinki{
+    display: flex;
+    margin-left: 100px;
+    align-items: center;
+    margin-top: 10px;
+}
+.hdr-section{
+    height: 554px;
+    background-image: url(img/bgcs.png);
+}
+.sctn{
+    background: #000000;
+    height: 1300px;
+}
+.sctn h1{
+    color: white;
+    text-align: center;
+    margin-top: 25px;
+}
+.ebnutiy{
+    background: #1B1E27;
+    width: 1189px;
+    height: 928px;
+    margin-left: 47px;
+    margin-top: 50px;
+}
+.imgdiv img{
+    display: flex;
+    margin-top: 40px;
+}
+.h1div{
+    margin-right: 300px;
+}
+.card{
+    width: 740px;
+    height: 335px;
+    border: 2px solid red;
+    margin-left: 245px;
+    margin-top: 61px;
+}
+.card1{
+    width: 740px;
+    height: 335px;
+    border: 2px solid red;
+    margin-left: 245px;
+    margin-top: 142px;
+}
+.papadiv{
+    display: flex;
+    color: white;
+}
+.footre{
+    background: #272C3D;
+    display: flex;
+    justify-content: space-between;
+}
+.textdv ul{
+    display: flex;
+    gap: 25px;
+}
+.textdv ul li{
+    color: white;
+}
+.imgdiv{
+    margin-bottom: 23px;
+}
+.textdv ul li:hover{
+    color: #FF9C28;
+    transition: all 0.5s;
+}
